@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+    /*reset Firefox user agent styles*/
+    -moz-margin-before: 0px;
+    -moz-margin-after: 0px;
+    -moz-margin-start: 0px;
+    -moz-margin-end: 0px;
+    -moz-padding-before: 0px;
+    -moz-padding-after: 0px;
+    -moz-padding-start: 0px;
+    -moz-padding-end: 0px;
+    /*reset Internet Explorer user agent styles*/
+    -ms-margin-before: 0px;
+    -ms-margin-after: 0px;
+    -ms-margin-start: 0px;
+    -ms-margin-end: 0px;
+    -ms-padding-before: 0px;
+    -ms-padding-after: 0px;
+    -ms-padding-start: 0px;
+    -ms-padding-end: 0px;
+    /*reset Opera user agent styles*/
+    -o-margin-before: 0px;
+    -o-margin-after: 0px;
+    -o-margin-start: 0px;
+    -o-margin-end: 0px;
+    -o-padding-before: 0px;
+    -o-padding-after: 0px;
+    -o-padding-start: 0px;
+    -o-padding-end: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: dodgerblue;
+}
+
+img {
+    height: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 40px;
+    color: grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-weight: normal;
+    position: relative;
+}
+
+form {
+    background-color: white;
+    width: 400px;
+    margin: 0;
+    padding: 40px;
+    border-radius: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    align-items: center;
+    width: 320px;
+    border: 2px solid lightgrey;
+    border-radius: 3px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 40px;
+}
+
+button {
+    background-color: mediumseagreen;
+    align-items: center;
+    width: 320px;
+    border: 2px solid lightgrey;
+    border-radius: 3px;
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+form a {
+    color: grey;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
