@@ -48,30 +48,13 @@ body {
     background-color: dodgerblue;
 }
 
-img {
+header img {
     height: 35px;
     margin-top: 30px;
     margin-bottom: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-legend {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h1 {
-    font-size: 40px;
-    color: grey;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    font-weight: normal;
-    position: relative;
 }
 
 form {
@@ -85,7 +68,28 @@ form {
     margin-right: auto;
 }
 
-input {
+form section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form section h1 {
+    font-size: 40px;
+    color: grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-weight: normal;
+    position: relative;
+}
+
+form label {
+    margin-top: 40px;
+}
+
+form input {
     align-items: center;
     width: 320px;
     border: 2px solid lightgrey;
@@ -95,11 +99,7 @@ input {
     margin-bottom: 20px;
 }
 
-label {
-    margin-top: 40px;
-}
-
-button {
+form button {
     background-color: mediumseagreen;
     align-items: center;
     width: 320px;
@@ -119,12 +119,12 @@ form a {
     text-align: center;
 }
 
-a {
-    color: white;
-}
-
 p {
     text-align: center;
     margin-top: 10px;
+    color: white;
+}
+
+p a {
     color: white;
 }
